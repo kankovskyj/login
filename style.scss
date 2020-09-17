@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Segoe Pro Semibold';
+    src: url(font/SegoePro-Semibold.woff);
+}
+@font-face {
+    font-family: 'Segoe Pro Bold';
+    src: url(font/SegoePro-Bold.woff);
+}
+
+$regular: 'Segoe Pro Semibold';
+$bold: 'Segoe Pro Bold';
+$white: #fff;
+$offWhite: #F3F4FA;
+$black: #000;
+$lightBlue: #9EAFC4;
+$darkBlue: #1C314D;
+$green: #44E214;
+$red: #F02928;
+
+* {
+    margin: 0;
+    padding: none;
+}
+body {
+    width: 100%;
+    font-family: $regular;
+    background-color: $offWhite;
+}
